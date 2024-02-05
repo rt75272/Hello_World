@@ -5,7 +5,7 @@
 //      $ node HelloWorld.js
 // --------------------------------------------
 function sayHi() {
-    console.log("Hello JavaScript World!");
+    console.log("\tHello JavaScript World!");
 }
 
 sayHi();

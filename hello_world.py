@@ -9,7 +9,7 @@ def main():
     phrase = "Hello Python World!"
     print(
         colored(
-            f"\n\t{phrase}\n"
+            f"\t{phrase}\n"
         , "cyan", attrs=["bold"])
     )
 

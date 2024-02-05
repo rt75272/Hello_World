@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 // -------------------------------------------
 // Hello C World!  
 //
 //  Usage:
-//      $ make c
+//      $ make c++
 // ------------------------------------------- 
 int main() {
-    printf("\n\tHello C World!\n\n");
-    return 0;
+   cout << "\tHello C++ World!\n\n";
+   return 0;
 }
