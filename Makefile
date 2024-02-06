@@ -14,5 +14,5 @@ js:
 php:
 	@php HelloWorld.php
 python:
-	@python3 hello_world.py
+	@python3 HelloWorld.py
 
