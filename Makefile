@@ -9,13 +9,19 @@
 # -------------------------------------------------------------------
 
 # Runs all hello worlds at once...Hello Makefile World!???
-all: c c++ java js php python html # Keep html at the end of all.
+all: c c_sharp c++ java js php python html # Keep html at the end of all.
 
 # Run Hello C World!
 c:
 	@gcc HelloWorld.c
 	@./a.out | lolcat
 	@rm a.out
+
+# Run Hello C# World!
+c_sharp:
+	@mcs HelloWorld.cs
+	@mono HelloWorld.exe | lolcat
+	@rm HelloWorld.exe
 
 # Run Hello C++ World!
 c++:
