@@ -9,11 +9,11 @@
 # -------------------------------------------------------------------
 
 # Runs all Hello Worlds at once.
-all: c c_sharp c++ golang java js php python html # Keep html at the end of all.
+all: bash c c_sharp c++ golang java js php python html # Keep html at the end of all.
 
 # Run Hello Bash World!
 bash:
-	@echo "\tHello Bash World!\n" | lolcat 
+	@./HelloWorld.sh | lolcat 
 
 # Run Hello C World!
 c:
@@ -39,7 +39,7 @@ golang:
 
 # Run Hello HTML/CSS World!
 html:
-	@echo "\tLanching\nHTML World......." | figlet | lolcat 
+	@echo "\tLanching\nHTML World......" | figlet | lolcat 
 	@command sleep 4
 	@command google-chrome HelloWorld.html
 
