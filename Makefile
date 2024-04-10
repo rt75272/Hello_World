@@ -8,8 +8,11 @@
 #		No target will run "make all".
 # -------------------------------------------------------------------
 
-# Runs all hello worlds at once...Hello Makefile World!???
-all: c c_sharp c++ java js php python html # Keep html at the end of all.
+# Runs all hello worlds at once.
+all: c c_sharp c++ golang java js php python html # Keep html at the end of all.
+
+bash:
+	@echo "\tHello Bash World!\n" | lolcat 
 
 # Run Hello C World!
 c:
@@ -29,9 +32,12 @@ c++:
 	@./a.out | lolcat
 	@rm a.out
 
+golang:
+	@go run HelloWorld.go | lolcat
+
 # Run Hello HTML/CSS World!
 html:
-	@echo "\tLanching\n Hello HTML World......." | figlet | lolcat 
+	@echo "\tLanching\nHTML World......." | figlet | lolcat 
 	@command sleep 4
 	@command google-chrome HelloWorld.html
 
