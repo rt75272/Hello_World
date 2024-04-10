@@ -4,7 +4,8 @@ using namespace std;
 // Hello C World!  
 //
 //  Usage:
-//      $ make c++
+//    $ g++ HelloWorld.cpp
+//    $ ./a.out
 // ------------------------------------------- 
 int main() {
    cout << "\tHello C++ World!\n\n";

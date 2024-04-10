@@ -8,9 +8,10 @@
 #		No target will run "make all".
 # -------------------------------------------------------------------
 
-# Runs all hello worlds at once.
+# Runs all Hello Worlds at once.
 all: c c_sharp c++ golang java js php python html # Keep html at the end of all.
 
+# Run Hello Bash World!
 bash:
 	@echo "\tHello Bash World!\n" | lolcat 
 
@@ -32,6 +33,7 @@ c++:
 	@./a.out | lolcat
 	@rm a.out
 
+# Run Hello Golang World!
 golang:
 	@go run HelloWorld.go | lolcat
 

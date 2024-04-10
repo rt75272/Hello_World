@@ -1,6 +1,9 @@
 package main
 // --------------------------------------------
-// sudo apt install golang
+// Hello Golang World
+//
+// Install:
+// 	$ sudo apt install golang
 //
 // Usage:
 // 	$ go run HelloWorld.go

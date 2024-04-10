@@ -3,7 +3,8 @@
 // Hello C World!  
 //
 //  Usage:
-//      $ make c
+//      $ gcc HelloWorld.c
+//      $ ./a.out
 // ------------------------------------------- 
 int main() {
     printf("\n\tHello C World!\n\n");
